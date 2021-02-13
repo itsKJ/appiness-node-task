@@ -1,0 +1,23 @@
+API - GET /categories
+This can be used to list all the available categories and the number of items available on that category.
+
+API - GET /categories/:categoryName
+This API can be used to list the products available in that particular category
+
+API - GET /products
+This API can be used to list all the products available
+
+API - GET /products/:productId
+This API can be used to find that particular product details
+
+API - GET /setup
+This API can be used to setup the db with the initial data.
+
+
+To run the application
+
+    1. Execute 'npm update' from the root of the application
+    2. Configure .env file in root with Database connection details and port number
+    3. Execute 'npm start' to start the application
+
+API tools like Postman can be used to consume/test the API.
